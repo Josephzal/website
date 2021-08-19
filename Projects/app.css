@@ -1,0 +1,73 @@
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    height: auto;
+    width: auto;
+    margin: auto;    
+    display: block;
+}
+
+.infoSection h2 {
+    color: #212529;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.infoSection p {
+    color:#495057;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#navMain {
+    font-size: 1.5rem;
+}
+
+#navMain .nav-link {
+    color: #adb5bd;
+}
+
+#navMain .nav-link:hover {
+    color: #212529;
+}
+
+#navMain .navbar-brand {
+    color: #212529;
+    font-size: 1.5rem;
+}
+
+#museumText h2 {
+    color: #adb5bd;
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+#museumText span {
+    color: #212529;
+}
+
+.navbar.scrolled {
+    background: white;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #museumText h2 {
+        font-size: 3rem;
+    }
+    .infoSection h2 {
+        font-size: 2rem;
+    }
+}
+
+
